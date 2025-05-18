@@ -1,0 +1,52 @@
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.local
+.env.prod
+.env.test
+
+### Environnement Virtuel ###
+venv/
+ENV/
+env/
+.benv/
+pythonenv*
+
+### IDE ###
+.vscode/
+.idea/
+.DS_Store
+*.sublime-*
+*.swp
+*.swo
+
+### Fichiers Sensibles ###
+secrets.json
+credentials.json
+firebase-key.json
+twilio_credentials.py
+
+### Migrations (à personnaliser) ###
+# Conserver les migrations versionnées
+#!authentication/migrations/*.py
+!*/migrations/__init__.py
+
+### Tests/Coverage ###
+.coverage
+htmlcov/
+.pytest_cache/
+test-reports/
+
+### Build/Déploiement ###
+build/
+dist/
+*.egg-info/
+*.apk
+.aab
+.heroku/
